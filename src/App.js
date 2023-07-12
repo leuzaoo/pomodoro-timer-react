@@ -1,10 +1,14 @@
+import Timer from "./pages/timer"
+import Settings from "./pages/settings";
 import "./App.css";
-import Timer from "./Timer";
+
+import { useState } from "react";
 
 function App() {
+const [showSettings, setShowSettings] = useState(true)
   return (
     <main>
-      <Timer />
+      {showSettings ? <Settings /> : <Timer />}
     </main>
   );
 }

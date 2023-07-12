@@ -5,15 +5,67 @@ body {
 
 main {
   max-width: 400px;
-  margin: 0 auto;
-  padding-top: 80px;
+  margin: 60px auto;
+  padding: 80px;
   text-align: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.label-wrapper label {
+  display: block;
+  text-align: left;
 }
 
 .play-button button {
-  margin-top: 40px;
   background-color: transparent;
   color: rgba(255, 255, 255, 0.8);
   border: 0;
   display: inline-block;
+}
+
+.pause-button button {
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.8);
+  border: 0;
+  display: inline-block;
+}
+
+.buttons-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.pause-button:hover,
+.play-button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  transition: all 0.2s;
+}
+
+.config-btn-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  margin: 0 auto;
+  gap: 20px;
+  padding: 12px 0px;
+  border-radius: 8px;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.config-btn-text:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.config-btn-container {
+  margin-top: 40px;
 }
