@@ -1,6 +1,9 @@
+import PlayButton from "../components/PlayButton";
+import PauseButton from "../components/PauseButton";
+import ConfigButton from "../components/ConfigButton";
+
 import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
-import PlayButton from "./components/PlayButton";
 
 const red = "#ff0000";
 
@@ -17,8 +20,12 @@ function Timer() {
           trailColor: "rgba(255, 255, 255, .3)",
         })}
       />
-      <div>
+      <div className="buttons-wrapper">
         <PlayButton />
+        <PauseButton />
+      </div>
+      <div className="config-btn-container">
+        <ConfigButton text="Configurações" />
       </div>
     </div>
   );
