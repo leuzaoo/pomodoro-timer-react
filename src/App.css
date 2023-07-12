@@ -1,11 +1,19 @@
-body{
-    background-color: #30384b;
-    color: #eee;
+body {
+  background-color: #30384b;
+  color: #eee;
 }
 
-main{
-    max-width: 400px;
-    margin: 0 auto;
-    padding-top: 80px;
-    text-align: center;
+main {
+  max-width: 400px;
+  margin: 0 auto;
+  padding-top: 80px;
+  text-align: center;
+}
+
+.play-button button {
+  margin-top: 40px;
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.8);
+  border: 0;
+  display: inline-block;
 }
