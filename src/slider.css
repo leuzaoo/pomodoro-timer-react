@@ -1,0 +1,23 @@
+.slider {
+  background-color: #30384b;
+  height: 40px;
+  border: 2px solid rgb(154, 193, 255);
+  border-radius: 20px;
+}
+
+.thumb {
+  background-color: rgb(154, 193, 255);
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+
+  cursor: pointer;
+}
+
+.slider.green {
+  border: 2px solid rgb(218, 255, 162);
+}
+
+.slider.green .thumb {
+  background-color: rgb(218, 255, 162);
+}
