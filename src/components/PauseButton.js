@@ -1,8 +1,8 @@
 import { PauseIcon } from "@heroicons/react/24/solid";
 
-function PauseButton(props) {
+function PauseButton({ props, onClick }) {
   return (
-    <div className="pause-button">
+    <div onClick={onClick} className="pause-button">
       <button {...props}>
         <PauseIcon width={80} />
       </button>

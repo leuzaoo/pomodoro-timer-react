@@ -1,9 +1,9 @@
 import { PlayIcon } from "@heroicons/react/24/solid";
 
-function PlayButton(props) {
+function PlayButton({ props, onClick }) {
   return (
     <div className="play-button">
-      <button {...props}>
+      <button onClick={onClick} {...props}>
         <PlayIcon width={80} />
       </button>
     </div>
