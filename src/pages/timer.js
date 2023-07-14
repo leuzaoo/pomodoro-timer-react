@@ -39,7 +39,8 @@ function Timer() {
   }
 
   function initTimer() {
-    setSecondsLeft(settingsInfo.workMinutes * 60);
+    secondsLeftRef.current = settingsInfo.workMinutes * 60;
+    setSecondsLeft(secondsLeftRef.current);
   }
 
   useEffect(() => {
