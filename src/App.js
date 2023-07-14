@@ -2,6 +2,7 @@ import SettingsContext from "./context/SettingsContext";
 import Settings from "./pages/settings";
 import Timer from "./pages/timer";
 import { useState } from "react";
+
 import "./App.css";
 
 function App() {

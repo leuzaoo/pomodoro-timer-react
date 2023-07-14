@@ -3,8 +3,8 @@ import PauseButton from "../components/PauseButton";
 import ConfigButton from "../components/ConfigButton";
 import SettingsContext from "../context/SettingsContext";
 import { useContext, useState, useEffect, useRef } from "react";
-
 import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
+
 import "react-circular-progressbar/dist/styles.css";
 
 const blue = "#9AC1FF";

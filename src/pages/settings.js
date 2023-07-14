@@ -1,7 +1,8 @@
 import SettingsContext from "../context/SettingsContext";
 import BackButton from "../components/BackButton";
-import ReactSlider from "react-slider";
 import { useContext } from "react";
+import ReactSlider from "react-slider";
+
 import "../slider.css";
 
 function Settings() {
