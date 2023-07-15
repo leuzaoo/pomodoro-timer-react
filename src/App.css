@@ -4,9 +4,9 @@ body {
 }
 
 main {
-  max-width: 400px;
+  width: 300px;
   margin: 60px auto;
-  padding: 80px;
+  padding: 20px;
   text-align: center;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 20px;
@@ -56,7 +56,7 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 60%;
+  width: 240px;
   margin: 0 auto;
   gap: 20px;
   padding: 12px 0px;
@@ -78,7 +78,7 @@ button {
 }
 
 .back-btn-wrapper {
-  width: 40%;
+  width: 180px;
   display: flex;
   justify-content: center;
   align-items: center;
