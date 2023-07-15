@@ -95,3 +95,10 @@ button {
 .back-btn-wrapper:hover {
   background-color: rgba(255, 255, 255, 0.1);
 }
+
+@media (min-width: 768px) {
+  main{
+    width: 400px;
+    padding: 40px;
+  }
+}
